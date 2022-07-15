@@ -5,8 +5,8 @@ const tmi = require('tmi.js');
 const regexpCommand = new RegExp(/^!([a-zA-Z0-9]+)(?:\W+)?(.*)?/);
 
 const commands = {
-  website: {
-    response: 'https://discord.teglastream.hu'
+  dc: {
+    response: 'Csatlakozz Discord szerveremre CZimbi! https://discord.teglastream.hu/'
   },
   upvote: {
     response: (user) => `User ${user} was just upvoted!`
